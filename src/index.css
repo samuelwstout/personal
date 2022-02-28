@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #040531;
+  width: fit-content;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.heading {
+  position: relative;
+  left: 640px;
+  top: 180px;
+}
+.description {
+  position: relative;
+  left: 570px;
+  top: 185px;
+}
+.projectButton {
+  position: relative;
+  left: 665px;
+  top: 170px;
+}
+.resumeButton {
+  position: relative;
+  left: 568px;
+  top: 230px;
+}
+.buttonText {
+  color: white;
+}
+.linkedin {
+  position: relative;
+  top: 320px;
+  left: 465px;
+}
+.github {
+  position: relative;
+  top: 320px;
+  left: 485px;
+}

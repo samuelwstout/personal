@@ -3,10 +3,10 @@ import Button from '@mui/material/Button';
 
 
 
-const Projects = () => {
+const Resume = () => {
     return (
     <div>
-        <h1 className='heading2'>Projects</h1>
+        <h1 className='heading2'>Resume</h1>
         <Button className='homeButton' variant='outlined'>
             <Link className='homeButtonText' to='/'>Home</Link>
         </Button>
@@ -14,4 +14,4 @@ const Projects = () => {
     )
 }
 
-export default Projects;
+export default Resume;

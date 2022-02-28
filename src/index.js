@@ -8,6 +8,7 @@ import {
 import './index.css';
 import App from './App';
 import Projects from './components/Projects.jsx';
+import Resume from './components/Resume';
 import reportWebVitals from './reportWebVitals';
 
 const rootElement = document.getElementById('root');
@@ -16,6 +17,7 @@ render(
     <Routes>
          <Route path='/' element={<App />} />
          <Route path='projects' element={<Projects />} />
+         <Route path='resume' element={<Resume />} />
          <Route
       path="*"
       element={

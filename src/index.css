@@ -46,3 +46,16 @@ code {
   top: 320px;
   left: 485px;
 }
+.homeButtonText {
+  color: white;
+}
+.homeButton {
+  position: relative;
+  bottom: 64px;
+  left: 10px;
+}
+.heading2 {
+  position: relative;
+  left: 660px;
+  top: 10px;
+}

@@ -13,12 +13,14 @@ const App = () => {
         <Link to='/projects' className='buttonText'>Projects</Link>
       </Button>
       <Button variant='outlined' className='resumeButton'>
-        <Link to='/projects' className='buttonText'>Resume</Link>
+        <Link to='/resume' className='buttonText'>Resume</Link>
       </Button>
-      <img className='linkedin' src={'linkedin1.png'}></img>
-      <img className='github' src={'github1.png'}></img>
+      <a href='//www.linkedin.com/in/samwstout' target='_blank'><img className='linkedin' src={'linkedin1.png'}></img></a>
+      <a href='//www.github.com/samuelwstout' target='_blank'><img className='github' src={'github1.png'}></img></a>
+      
     </div>
   );
 }
 
 export default App;
+//www.linkedin.com/in/samwstout

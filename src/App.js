@@ -17,10 +17,11 @@ const App = () => {
       </Button>
       <a href='//www.linkedin.com/in/samwstout' target='_blank'><img className='linkedin' src={'linkedin1.png'}></img></a>
       <a href='//www.github.com/samuelwstout' target='_blank'><img className='github' src={'github1.png'}></img></a>
-      
     </div>
   );
 }
 
 export default App;
-//www.linkedin.com/in/samwstout
+
+
+

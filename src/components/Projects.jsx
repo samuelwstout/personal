@@ -12,7 +12,16 @@ const Projects = () => {
         </Button>
         <div className='iTunes'>
             <h1>iTunes Search</h1>
-            <p><a target="_blank" rel="noopener noreferrer" href='http://google.com'>linktosite.com</a></p>
+            <iframe width="420" height="315"
+                src="https://youtube.com/embed/2dPR0WBXx2w"   
+                allowfullscreen="allowfullscreen"
+                mozallowfullscreen="mozallowfullscreen" 
+                msallowfullscreen="msallowfullscreen" 
+                oallowfullscreen="oallowfullscreen" 
+                webkitallowfullscreen="webkitallowfullscreen">
+            </iframe>
+            <p><a className='githubLink' target="_blank" rel="noopener noreferrer" href='https://itunes-search-83cf6.firebaseapp.com/'>Go to Site</a></p>
+            <p><a className='githubLink' target="_blank" rel="noopener noreferrer" href='https://github.com/samuelwstout/music-search-app'>link to GitHub</a></p>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -20,8 +29,26 @@ const Projects = () => {
                 <li>iTunes Search API</li>
             </ul>
         </div>
+        <div className='deepdish'>
+            <h1>Discover Deep Dish</h1>
+            <iframe width="420" height="315"
+                src="https://youtube.com/embed/oFFeVwqrzQ4"  
+                allowfullscreen="allowfullscreen"
+                mozallowfullscreen="mozallowfullscreen" 
+                msallowfullscreen="msallowfullscreen" 
+                oallowfullscreen="oallowfullscreen" 
+                webkitallowfullscreen="webkitallowfullscreen">
+            </iframe>
+            <p><a className='githubLink' target="_blank" rel="noopener noreferrer" href='https://uw87tu99.web.app/'>Go to Site</a></p>
+            <p><a className='githubLink' target="_blank" rel="noopener noreferrer" href='https://github.com/samuelwstout/phase-2-final-project'>link to GitHub</a></p>
+            <ul>
+                <li>ReactJS</li>
+                <li>Material UI</li>
+                <li>Mapbox Gl JS API</li>
+            </ul>
+        </div>
         <div>
-            
+
         </div>
     </div>
     )

@@ -13,6 +13,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Intro Page */
+
 .introdiv {
   display: flex;
   flex-direction: column;
@@ -92,18 +95,6 @@ code {
     font-size: 1.2rem;
   }
 }
-/*
-  320x568
-  375x667
-  414x736
-  375x812
-  414x896
-  390x844
-  428x926
-  768x1024
-  810x1080
-  768x1024
-  834x1112
-  834x1194
-  1024x1366 
-*/
+
+/* Projects page */
+

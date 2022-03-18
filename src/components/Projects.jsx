@@ -6,13 +6,13 @@ import Button from '@mui/material/Button';
 const Projects = () => {
     return (
     <div>
-        <h1 className='heading2'>Projects</h1>
-        <Button className='homeButton' variant='outlined'>
+         <Button className='homeButton' variant='outlined'>
             <Link className='homeButtonText' to='/'>Home</Link>
         </Button>
+        <div className="projectsdiv">
         <div className='iTunes'>
             <h1>iTunes Search</h1>
-            <iframe width="420" height="315"
+            <iframe width="500" height="400" className='itunesvid'
                 src="https://youtube.com/embed/2dPR0WBXx2w"   
                 allowfullscreen="allowfullscreen"
                 mozallowfullscreen="mozallowfullscreen" 
@@ -48,8 +48,8 @@ const Projects = () => {
             </ul>
         </div>
         <div>
-
         </div>
+    </div>
     </div>
     )
 }

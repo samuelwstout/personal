@@ -30,6 +30,10 @@ code {
   width: 50%;
   bottom: 1rem;
 }
+.buttonText {
+  color: #fff;
+  text-decoration: none;
+}
 .introdiv > .description {
   position: relative;
   bottom: 1.3rem;
@@ -97,4 +101,7 @@ code {
 }
 
 /* Projects page */
-
+.homeButtonText {
+  color: #fff;
+  text-decoration: none;
+}

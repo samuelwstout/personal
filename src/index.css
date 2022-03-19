@@ -101,7 +101,34 @@ code {
 }
 
 /* Projects page */
-.homeButtonText {
-  color: #fff;
-  text-decoration: none;
+
+.homeButton {
+  position: absolute;
+  top: .5rem;
+  left: .5rem;
+}
+.deepdish > .pizzavid {
+  position: absolute;
+  left: 40rem;
+  width: 35rem;
+  height: 20rem;
+  top: -.5rem;
+
+}
+.itunes > .itunesvid {
+  position: absolute;
+  left: 40rem;
+  top: -2rem;
+  width: 35rem;
+  height: 20rem;
+}
+.itunes {
+  position: absolute;
+  top: 55rem;
+  left: 6rem;
+}
+.deepdish {
+  position: absolute;
+  top: 31rem;
+  left: 6rem;
 }

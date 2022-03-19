@@ -7,45 +7,18 @@ const Projects = () => {
     return (
     <div>
          <Button className='homeButton' variant='outlined'>
-            <Link className='homeButtonText' to='/'>Home</Link>
+            <Link className='buttonText' to='/'>Home</Link>
         </Button>
-        <iframe width="300" height="200" className='itunesvid'
-                    src="https://youtube.com/embed/2dPR0WBXx2w"   
-                    allowfullscreen="allowfullscreen"
-                    mozallowfullscreen="mozallowfullscreen" 
-                    msallowfullscreen="msallowfullscreen" 
-                    oallowfullscreen="oallowfullscreen" 
-                    webkitallowfullscreen="webkitallowfullscreen">
-        </iframe>
-        <iframe width="300" height="200" className='pizzavid'
-                    src="https://youtube.com/embed/oFFeVwqrzQ4"  
-                    allowfullscreen="allowfullscreen"
-                    mozallowfullscreen="mozallowfullscreen" 
-                    msallowfullscreen="msallowfullscreen" 
-                    oallowfullscreen="oallowfullscreen" 
-                    webkitallowfullscreen="webkitallowfullscreen">
-        </iframe>
         <div className="projectsdiv">
-            <div className='iTunes'>
-                <h1>iTunes Search</h1>
-                <p>
-                   Search application that returns results from iTunes.
-                </p>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>iTunes Search API</li>
-                </ul>
-            <Button className='homeButton' variant='outlined'>
-                <a className='githubLink' target="_blank" rel="noopener noreferrer" href='https://itunes-search-83cf6.firebaseapp.com/'>Live Demo</a>
-            </Button>
-            <Button className='homeButton' variant='outlined'>
-                <a className='githubLink' target="_blank" rel="noopener noreferrer" href='https://github.com/samuelwstout/music-search-app'>Github Repo</a>
-            </Button>
-            </div>
-
-            <div className='deepdish'>
+        <div className='deepdish'>
+                <iframe  className='pizzavid'
+                            src="https://youtube.com/embed/oFFeVwqrzQ4"  
+                            allowfullscreen="allowfullscreen"
+                            mozallowfullscreen="mozallowfullscreen" 
+                            msallowfullscreen="msallowfullscreen" 
+                            oallowfullscreen="oallowfullscreen" 
+                            webkitallowfullscreen="webkitallowfullscreen">
+                </iframe>
                 <h1>Discover Deep Dish</h1>
                 <p>
                     Restaurant-finding application exclusively for deep dish pizza.
@@ -58,10 +31,37 @@ const Projects = () => {
                     <li>json-server (mock server)</li>
                 </ul>
             <Button variant='outlined'>
-                <a className='githubLink' target="_blank" rel="noopener noreferrer" href='https://uw87tu99.web.app/'>Live Demo</a>
+                <a className='buttonText' target="_blank" rel="noopener noreferrer" href='https://uw87tu99.web.app/'>Live Demo</a>
             </Button>
             <Button variant='outlined'>
-                <a className='githubLink' target="_blank" rel="noopener noreferrer" href='https://github.com/samuelwstout/phase-2-final-project'>Github Repo</a>
+                <a className='buttonText' target="_blank" rel="noopener noreferrer" href='https://github.com/samuelwstout/phase-2-final-project'>Github Repo</a>
+            </Button>
+            </div>
+
+        <div className='itunes'>
+                <iframe  className='itunesvid'
+                            src="https://youtube.com/embed/2dPR0WBXx2w"   
+                            allowfullscreen="allowfullscreen"
+                            mozallowfullscreen="mozallowfullscreen" 
+                            msallowfullscreen="msallowfullscreen" 
+                            oallowfullscreen="oallowfullscreen" 
+                            webkitallowfullscreen="webkitallowfullscreen">
+                </iframe>
+                <h1>iTunes Search</h1>
+                <p>
+                   Search application that returns results from iTunes.
+                </p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>iTunes Search API</li>
+                </ul>
+            <Button className='homeButton' variant='outlined'>
+                <a className='buttonText' target="_blank" rel="noopener noreferrer" href='https://itunes-search-83cf6.firebaseapp.com/'>Live Demo</a>
+            </Button>
+            <Button className='homeButton' variant='outlined'>
+                <a className='buttonText' target="_blank" rel="noopener noreferrer" href='https://github.com/samuelwstout/music-search-app'>Github Repo</a>
             </Button>
             </div>
         </div>

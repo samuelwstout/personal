@@ -9,7 +9,7 @@ const App = () => {
       <h1 className='heading'>Sam Stout</h1>
       <h3 className='description'>React Focused Software Engineer</h3>
       <Button variant='outlined' className='projectButton'>
-        <Link to='/projects' className='buttonText'>Projects</Link>
+        <Link to='/projects' className='buttonText'>My Project</Link>
       </Button>
       <a href='//www.linkedin.com/in/samwstout' className='linkedin' target='_blank'><img src={'linkedin1.png'}></img></a>
       <a href='//www.github.com/samuelwstout' className='github' target='_blank'><img src={'github1.png'}></img></a>

@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #040531;
+  background-color: #000;
   width: fit-content;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -26,13 +26,33 @@ code {
   justify-content: space-evenly;
   align-items: center;
 }
+.introdiv > .heading {
+  font-size: 2rem;
+  font-weight: 350;
+  position: relative;
+  bottom: 1.5rem;
+}
+.introdiv > .description {
+  font-size: 1rem;
+  font-weight: 250;
+  position: relative;
+  top: -2.2rem;
+}
 .introdiv > .projectButton {
   width: 50%;
-  bottom: 1rem;
+  font-size: .7rem;
+    position: relative;
+    top: -.5rem;
+}
+.introdiv > .aboutButton {
+  font-size: .7rem;
+    position: relative;
+    top: -1.5rem;
 }
 .buttonText {
   color: #fff;
   text-decoration: none;
+  font-size: .5rem;
 }
 .introdiv > .description {
   position: relative;
@@ -40,66 +60,32 @@ code {
 }
 .introdiv > .linkedin {
   position: relative;
-  top: .5rem;
+  top: 1rem;
   right: 2rem;
 }
 .introdiv > .github {
   position: relative;
   left: 2rem;
-  bottom: 2.8rem;
+  bottom: 2.35rem;
 }
-@media (max-width: 600px) {
-.introdiv > .description {
-  font-size: 1.1rem;
-}}
-@media (max-width: 566px) {
-  .introdiv > .description {
-    font-size: 1rem;
-}}
-@media (max-width: 566px) {
-  .introdiv > .description {
-    font-size: .9rem;
-}}
-@media (max-width: 475px) {
-  .introdiv > .description {
-    font-size: .8rem;
-}}
-@media (max-width: 429px) {
-  .introdiv > .description {
-    font-size: .7rem;
-}
+@media (min-width: 1020px) {
   .introdiv > .heading {
-    font-size: 1.5rem;
-    position: relative;
-    bottom: .4rem;
+    font-size: 3rem;
   }
-}
-@media (max-width: 382px) {
   .introdiv > .description {
-    font-size: .6rem;
-    position: relative;
-    bottom: 1.5rem;
-}
-  .introdiv > .heading {
-    font-size: 1.4rem;
-    position: relative;
-    bottom: 1rem;
+    font-size: 1.5rem;
+    top: -3.5rem;
+  }
+  .introdiv > .aboutButton {
+    top: -3rem;
   }
   .introdiv > .projectButton {
-    font-size: .7rem;
-    position: relative;
-    top: -.8rem;
+    top: -1.5rem;
+  }
+  .buttonText {
+    font-size: .6rem;
   }
 }
-@media (max-width: 333px) {
-  .introdiv > .description {
-    font-size: .5rem;
-  }
-  .introdiv > .heading {
-    font-size: 1.2rem;
-  }
-}
-
 /* Projects page */
 
 .homeButton {
@@ -131,4 +117,43 @@ code {
   position: absolute;
   top: 31rem;
   left: 6rem;
+}
+
+/* Projects */
+.projectDiv {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: .4rem;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  justify-content: space-evenly;
+  align-items: center;
+}
+.projectHeading {
+  font-size: 4rem;
+  font-weight: 300;
+  position: relative;
+  bottom: 1rem;
+}
+.sourcecodeBtn {
+  position: relative;
+  bottom: 2.5rem;
+}
+.description1 {
+  position: relative;
+  bottom: 1.5rem;
+  text-align: center;
+  padding: 0 .5rem 0 .5rem;
+  font-size: .75rem;
+}
+.description2 {
+  font-size: .75rem;
+  text-align: center;
+  position: relative;
+  bottom: 1rem;
+}
+.video {
+  border: none;
 }

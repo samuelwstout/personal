@@ -14,7 +14,7 @@ const Projects = () => {
             <Button className='sourcecodeBtn' variant='outlined'>
                 <a className='buttonText' href='//www.github.com/samuelwstout/Classify'>Source Code</a>
             </Button>
-            <h3 className='description1'>a tool to help find classical composers with Spotify's Search API.</h3>
+            <h3 className='description1'>an easier way to find classical composers and their music with the help of Spotify's API.</h3>
             <h3 className='description2'>built with React/Redux and Node/Express</h3>
             <iframe className='video'
                     src="https://youtube.com/embed/T_DcSoBtodY"  

@@ -206,7 +206,7 @@ code {
 }
 @media (min-width: 1020px) {
   .aboutDiv {
-    top: 50%;
+    top: 45%;
     gap: 1rem;
   }
   .about1 {
